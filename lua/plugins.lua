@@ -16,10 +16,7 @@ Plug "tpope/vim-fugitive"
 Plug "nvim-lualine/lualine.nvim"
 Plug "romgrk/barbar.nvim"
 Plug "kyazdani42/nvim-web-devicons"
-
-Plug "sirver/ultisnips"
--- Plug ("sirver/ultisnips", {["for"] = "tex"})
-
+Plug ("sirver/ultisnips", {["for"] = "tex"})
 Plug "jiangmiao/auto-pairs"
 
 vim.call("plug#end")
